@@ -2,12 +2,12 @@
 
 Software named "Gantt Manager" is a process manager.
 
-Input is a file with tasks which includes parent tasks and child tasks.
-Child tasks refer to the parent task.
-Each task has the following fields: TaskId, TaskText, MamaId, start, end, and cost.
-Parent task has MamaId equal to 0.
-Child task has MamaId equal to the TaskId of its parent task.
-File contains a large number of tasks in a random order.
+* Input is a file with tasks which includes parent tasks and child tasks.
+* Child tasks refer to the parent task.
+* Each task has the following fields: TaskId, TaskText, MamaId, start, end, and cost.
+* Parent task has MamaId equal to 0.
+* Child task has MamaId equal to the TaskId of its parent task.
+* File contains a large number of tasks in a random order.
 
 UC1: Load task file:
 The first step is to load the CSV file and sort tasks based on the TaskId.
